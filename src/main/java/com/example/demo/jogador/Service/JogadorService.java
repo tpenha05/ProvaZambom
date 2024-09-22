@@ -57,5 +57,14 @@ public class JogadorService {
 
     }
 
+    public void deletar(String id) {
+        Optional<Jogador> jogador = jogadorRepository.findById(id);
+        if (jogador.isPresent()) {
+            jogadorRepository.deleteById(id);
+        } else {
+            throw new RuntimeException("Jogador não encontrado");
+        }
+    }
+
 
 }

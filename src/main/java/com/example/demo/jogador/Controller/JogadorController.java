@@ -30,4 +30,9 @@ public class JogadorController {
     public Jogador salvarComTime(@RequestBody Jogador aposta, @PathVariable Integer idTime) {
         return jogadorService.addTime(aposta, idTime);
     }
+
+    @DeleteMapping("/{id}")
+    public void deletar(@PathVariable String id) {
+        jogadorService.deletar(id);
+    }
 }
