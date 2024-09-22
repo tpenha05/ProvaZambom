@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-public class RetornarTimeDTO {
+public class RetornarTImeDTO {
 
     private String identificador;
     private String estadio;
