@@ -1,8 +1,8 @@
-package com.example.jogadores.jogador.controller;
+package com.example.demo.jogador.Controller;
 
 
-import com.example.jogadores.jogador.model.Jogador;
-import com.example.jogadores.jogador.service.JogadorService;
+import com.example.demo.jogador.Model.Jogador;
+import com.example.demo.jogador.Service.JogadorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

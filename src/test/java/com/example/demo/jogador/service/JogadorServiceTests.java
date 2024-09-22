@@ -1,11 +1,13 @@
-package com.example.jogadores.jogador.service;
+package com.example.demo.jogador.service;
 
 
-import com.example.jogadores.jogador.model.Jogador;
-import com.example.jogadores.jogador.repository.JogadorRepository;
-import com.example.jogadores.time.RetornarTImeDTO;
-import com.example.jogadores.time.TimeNaoEncontrandoException;
-import com.example.jogadores.time.TimeService;
+import com.example.demo.jogador.Model.Jogador;
+import com.example.demo.jogador.Repository.JogadorRepository;
+import com.example.demo.jogador.Service.JogadorService;
+import com.example.demo.time.RetornarTImeDTO;
+import com.example.demo.time.TimeService;
+import com.example.demo.time.TimeNaoEncontrandoException;
+import com.example.demo.time.TimeService;
 import jakarta.websocket.MessageHandler;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

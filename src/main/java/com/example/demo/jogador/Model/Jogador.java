@@ -1,4 +1,4 @@
-package com.example.jogadores.jogador.model;
+package com.example.demo.jogador.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

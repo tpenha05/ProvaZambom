@@ -1,4 +1,4 @@
-package com.example.jogadores.time;
+package com.example.demo.time;
 
 
 import lombok.Getter;
