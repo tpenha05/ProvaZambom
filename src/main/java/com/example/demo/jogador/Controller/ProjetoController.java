@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/jogador")
+@RequestMapping("/projeto")
 public class ProjetoController {
 
 
@@ -25,7 +25,7 @@ public class ProjetoController {
         return projetoService.salvar(projeto);
     }
 
-    @PostMapping("/{idTime}")
+    @PostMapping("/{cpf}")
     public Projeto salvarComCpf(@RequestBody Projeto projeto, @PathVariable String cpf) {
         return projetoService.addTime(projeto, cpf);
     }
